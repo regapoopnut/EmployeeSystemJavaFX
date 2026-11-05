@@ -48,3 +48,10 @@ Main.java is the entry point. The project is split into five packages:
 
 I used a Singleton for the repository so every part of the app shares the same list of employees. I used an ObservableList so the table updates automatically when a new employee is added without needing a refresh. The Department field is an enum instead of a plain String to prevent invalid values. Employee fields are all final with no setters to keep the data safe once created.
 
+
+---
+
+## Version control
+
+This project is tracked with Git and hosted on GitHub as part of CSC265 Mini Project 2.
+The `target/` build folder is excluded via `.gitignore`; only source files and `pom.xml` are committed.
